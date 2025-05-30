@@ -1,11 +1,10 @@
 import React from 'react';
+import DigitalClock from './DigitalClock';
+import './index.css';
 
 function App() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
-      <p>This is my first React app from scratch.</p>
-    </div>
+    <DigitalClock/>
   );
 }
 
